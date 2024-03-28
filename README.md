@@ -1,2 +1,2 @@
 # POO
-Curso de programação orientada a objetos
+Curso de programação orientada a objetos pelo Instituto Tecnológico da Aeronáutica.
