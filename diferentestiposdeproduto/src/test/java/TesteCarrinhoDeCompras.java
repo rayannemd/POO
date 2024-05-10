@@ -17,7 +17,7 @@ public class TesteCarrinhoDeCompras {
 	CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
 	
 	@Before
-	public void Before() {
+	public void adicionaProdutos() {
 		p1 = new ProdutoComTamanho ("BiscoitoA", 100, 1.50, 150);
 		p2 = new ProdutoComTamanho ("Queijo", 200, 8.50, 2);
 		p3 = new ProdutoComTamanho ("BiscoitoB", 100, 1.75, 150);
