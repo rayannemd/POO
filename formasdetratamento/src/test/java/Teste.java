@@ -18,8 +18,8 @@ public class Teste {
 		vetorAutoridade[1] = new Autoridade("Marie", "Curie", "feminino", "Informal");
 		vetorAutoridade[2] = new Autoridade("Ada", "Lovelace", "feminino", "Respeitoso");
 		vetorAutoridade[3] = new Autoridade("Isaac", "Newton", "masculino", "Sir.");
-        vetorAutoridade[4] = new Autoridade("Carl", "Sagan", "masculino", "Respeitoso");
-        vetorAutoridade[5] = new Autoridade("Margaret", "Hamilton", "feminino", "Dra.");
+        	vetorAutoridade[4] = new Autoridade("Carl", "Sagan", "masculino", "Respeitoso");
+        	vetorAutoridade[5] = new Autoridade("Margaret", "Hamilton", "feminino", "Dra.");
 	}
 	
 	@Test
