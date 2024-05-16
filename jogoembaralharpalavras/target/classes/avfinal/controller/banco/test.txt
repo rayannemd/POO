@@ -1,0 +1,25 @@
+What is unit testing?
+A unit can be a function, a class, a package, or a subsystem. So, the term unit testing refers to the practice of testing such small
+units of your code, so as to ensure that they work as expected. For example, we can test whether an output is what we expected
+to see given some inputs or if a condition is true or false.
+This practice helps developers to discover failures in their logic behind their code and improve the quality of their code. Also,
+unit testing can be used so as to ensure that the code will work as expected in case of future changes.
+1.2 Test coverage
+In general, the development community has different opinion regarding the percentage of code that should be tested (test coverage). Some developers believe that the code should have 100% test coverage, while others are comprised with a test coverage of
+50% or less. In any case, you should write tests for complex or critical parts of your code.
+1.3 Unit testing in Java
+The most popular testing framework in Java is JUnit. As this guide is focused to JUnit, more details for this testing framework
+will presented in the next sections. Another popular testing framework in Java is TestNG
+JUnit introduction
+JUnit is an open source testing framework which is used to write and run repeatable automated tests, so that we can be ensured
+that our code works as expected. JUnit is widely used in industry and can be used as stand alone Java program (from the command
+line) or within an IDE such as Eclipse.
+JUnit provides:
+• Assertions for testing expected results.
+• Test features for sharing common test data.
+• Test suites for easily organizing and running tests.
+• Graphical and textual test runners.
+JUnit is used to test:
+• an entire object
+• part of an object - a method or some interacting methods
+• interaction between several objects
